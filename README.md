@@ -1,156 +1,204 @@
-# Awesome-Online-Invoicing-Payment-Tracking
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Online Invoicing & Payment Tracking Banner" width="100%" />
+</p>
 
-# Awesome Online Invoicing & Payment Tracking
+# 🧾 Awesome Online Invoicing & Payment Tracking 💳
 
-> A curated list of top Online Invoicing and Payment Tracking platforms — both SaaS/Hosted commercial solutions and open-source alternatives for creating invoices, tracking payments, and managing business finances.
-> 🌟 Star this repo if you find it useful! 🌟
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-blue.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
+
+> 🌟 **A curated list of top Online Invoicing and Payment Tracking platforms** — exploring modern open-source billing engines, self-hosted accounting suites, and enterprise SaaS solutions for invoice generation, automated payment tracking, EU e-invoicing compliance (ZUGFeRD, XRechnung, Peppol), and cash-flow management.
 
 ---
 
-## 📋 Table of Contents
+## 📑 Table of Contents
 
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [FreshBooks](#freshbooks)
-  - [QuickBooks Online](#quickbooks-online)
-  - [Xero](#xero)
-  - [Wave](#wave)
-  - [Square Invoices](#square-invoices)
-- [Open-Source Software](#-open-source-software)
-  - [Invoice Ninja](#invoice-ninja)
-  - [InvoiceShelf](#invoiceshelf)
-  - [InvoicePlane](#invoiceplane)
-  - [Kimai](#kimai)
-  - [Summit (Kugie)](#summit-kugie)
-  - [BillKu](#billku)
-  - [Crater (Archived)](#crater-archived)
-  - [FOSSBilling](#fossbilling)
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🟦 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [🟩 Open-Source Software](#-open-source-software)
+  - [1. Midday](#1-midday-)
+  - [2. Invoice Ninja](#2-invoice-ninja-)
+  - [3. Akaunting](#3-akaunting-)
+  - [4. IDURAR ERP CRM](#4-idurar-erp-crm-)
+  - [5. Crater (Archived)](#5-crater-archived-)
+  - [6. Invoify](#6-invoify-)
+  - [7. Manta](#7-manta-)
+  - [8. Kimai](#8-kimai-)
+  - [9. Frappe Books](#9-frappe-books-)
+  - [10. Bigcapital](#10-bigcapital-)
+  - [11. InvoicePlane](#11-invoiceplane-)
+  - [12. InvoiceShelf](#12-invoiceshelf-)
+  - [13. FOSSBilling](#13-fossbilling-)
+  - [14. Summit (Kugie)](#14-summit-kugie-)
+  - [15. BillKu](#15-billku-)
+- [📊 Feature & Compliance Comparison](#-feature--compliance-comparison)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+
+---
+
+## 🌐 Sector Overview & Market Dynamics
+
+The global online invoicing and automated billing software market is valued at approximately **$9 billion to $18 billion** (scaling toward **$35 billion to $70+ billion** across the next decade at a robust compound annual growth rate of **11% to 18% CAGR**). Market structure exhibits a hybrid dynamic: it is **moderately concentrated at the enterprise and compliance layer**—where multinational giants (such as Intuit, SAP, Oracle NetSuite, and Sage) dominate mission-critical enterprise workflows and regulatory cleared networks—yet **highly fragmented across the SME, micro-business, and developer segments**, where hundreds of modular SaaS providers, niche vertical solutions, and open-source self-hosted alternatives compete aggressively.
 
 ---
 
 ## 🟦 SaaS / Hosted Platforms
 
-Commercial, cloud-hosted Online Invoicing and Payment Tracking platforms. These are not open-source but are included as reference points for feature comparison.
+Below is an overview of leading cloud-hosted commercial invoicing and financial tracking platforms, sorted in descending order by parent company scale (market capitalization and annual revenue).
 
-### FreshBooks
-**Type:** Accounting and invoicing for small businesses
-FreshBooks provides invoicing, expense tracking, time tracking, and payment processing for freelancers and small businesses. It is known for its user-friendly interface and strong customer support, with pricing tiers based on client count.
-
-### QuickBooks Online
-**Type:** Comprehensive accounting with invoicing
-QuickBooks Online is the most widely adopted small business accounting platform, with invoicing, expense tracking, bank reconciliation, and reporting. It is positioned for businesses wanting full accounting capabilities alongside invoicing, with pricing tiers based on features and company size.
-
-### Xero
-**Type:** Cloud accounting with invoicing and bank feeds
-Xero provides cloud accounting with invoicing, bank reconciliation, and reporting, with a strong ecosystem of third-party integrations. It is popular among small businesses and accountants, particularly outside the US.
-
-### Wave
-**Type:** Free accounting and invoicing for small businesses
-Wave offers free invoicing, accounting, and receipt scanning for small businesses, monetizing through payment processing and payroll add-ons. It is positioned as an accessible entry point for freelancers and micro-businesses.
-
-### Square Invoices
-**Type:** Invoicing integrated with Square payments
-Square Invoices provides invoice creation and payment tracking within the Square ecosystem, with integrated card processing and automated reminders. It is positioned for businesses already using Square for in-person payments.
+| Platform 🏷️ | Company Scale (Market Cap / Revenue) 🏢 | Starting Tier Pricing 💰 | Free Tier & Trial Limits ⏳ | Key Invoicing & Payment Capabilities ⚡ |
+| :--- | :--- | :--- | :--- | :--- |
+| **[QuickBooks Online](https://quickbooks.intuit.com/)** | **~$91B – $95B Market Cap**<br>*(Intuit FY2025 revenue: ~$18.1B)* | **$20/month** *(Solopreneur)* / **$38/month** *(Simple Start)* | **QuickBooks Free plan** (limited to 1 user, basic income/expense tracking, capped monthly invoicing volume, no accountant seat) or **30-day free trial** of paid plans with full access. | Industry standard general ledger, automated bank feeds, estimated quarterly tax prep, invoice tracking, customer portal, and deep accountant collaboration. |
+| **[Square Invoices](https://squareup.com/invoices)** | **~$45B – $51B Market Cap**<br>*(Block Inc. FY2024 revenue: ~$24.1B)* | **$49/month per location** *(Square Plus)* | **Permanent Free plan** with **unlimited** invoices, recurring billing, estimates, and contracts; card processing fee is 3.3% + 30¢ (Plus reduces rate to 2.9% + 30¢ and adds batch invoicing/payment schedules). | Tightly coupled with Square POS ecosystem, automated overdue reminders, instant card and ACH bank transfer acceptance, milestone billing, and contract signatures. |
+| **[Xero](https://www.xero.com/)** | **~$7B – $8B USD Market Cap**<br>*(ASX: XRO, FY2025 revenue: NZ$2.1B)* | **$20/month** *(Early / Starter tier)* | **30-day free trial** with full platform capabilities (no credit card required). Standard entry-level plan limits users to sending/approving **20 invoices/quotes** and entering **5 bills** per month. | Seamless double-entry bookkeeping, 1,000+ ecosystem integrations, automated bank feeds, multi-currency accounting, and quote-to-invoice workflows. |
+| **[FreshBooks](https://www.freshbooks.com/)** | **~$1B+ Valuation (Unicorn)**<br>*(Estimated annual revenue: ~$80M+)* | **$23/month** *(Lite plan, up to 5 billable clients)* | **30-day free trial** with access to all features (no credit card required). No permanent free plan; Lite plan strictly caps volume to **5 billable clients**. | Purpose-built for service professionals and agencies; includes time tracking, project budget tracking, client portal, automated late fees, and retainers. |
+| **[Wave Accounting](https://www.waveapps.com/)** | **$405M Acquisition Valuation**<br>*(Acquired by H&R Block; ~$45M+ revenue)* | **$19/month** *(Wave Pro)* | **Permanent Free Starter plan** with **unlimited** invoicing, estimates, billing, and accounting entries; automated bank feed synchronization and receipt scanning require upgrading to the $19/mo Pro plan. | 100% free core invoicing and ledger for freelancers and micro-businesses, integrated credit card and bank payment processing, and customizable invoice templates. |
 
 ---
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Online Invoicing and Payment Tracking tools. The open-source ecosystem spans **mature platforms with e-invoicing**, **modern Laravel/Vue applications**, **time-tracking-first tools**, and **abandoned projects to avoid**.
+The open-source invoicing landscape features everything from modern Next.js/TypeScript developer stacks to full-fledged ERP suites and EU e-invoicing compliance engines. Repositories below are ordered in descending order of GitHub star count.
 
-### Invoice Ninja
-**Stack:** PHP / Laravel / MySQL | **License:** Elastic License 2.0 (source-available)
-Invoice Ninja is the most widely deployed open-source invoicing platform, with a health score of 96/100 and very active development . It provides invoicing, recurring invoices, client portal, expense tracking, and payment gateway integrations. **Important licensing caveat:** It uses the Elastic License 2.0, which is source-available but not OSI-approved open source, limiting commercial reuse and redistribution . **E-invoicing:** Invoice Ninja is the only self-hosted option with built-in support for **ZUGFeRD, XRechnung, Facturae, FatturaPA, and generic EN16931**, though FatturaPA is marked as not production-ready due to the Italian SDI connection not being live . Peppol network access runs through Invoice Ninja's hosted platform as part of its Enterprise plan ($18/month, 250 credits) . **Self-hosted cost:** Fully functional at no cost, with white-label branding available for $40/year .
-**Best for:** Businesses wanting the most feature-complete open-source invoicing platform with EU e-invoicing compliance built in, accepting the source-available licensing and Peppol dependency.
+### 1. [Midday](https://github.com/midday-ai/midday) [![GitHub stars](https://img.shields.io/github/stars/midday-ai/midday?style=social&color=white)](https://github.com/midday-ai/midday/stargazers)
+* **Stack:** Next.js / TypeScript / Tailwind CSS / Supabase / AI Engine
+* **License:** Open Source (per repository)
+* **Overview:** A modern, AI-enhanced financial operating system designed for freelancers, solopreneurs, and digital agencies. Features sleek invoice generation, automatic bank transaction reconciliation, multi-currency reporting, expense categorization, and an integrated AI financial assistant.
+* **Best For:** Modern businesses wanting an all-in-one financial dashboard with cutting-edge UI and AI automation.
 
-### InvoiceShelf
-**Stack:** PHP / Laravel / Vue.js / PostgreSQL | **License:** AGPL-3.0
-InvoiceShelf is the actively maintained fork of the abandoned Crater project, explicitly recommended over Crater in 2026 comparisons . It provides invoicing, estimates, expense tracking, payment management, tax handling, multi-currency, customer portal, email integration, financial reports, custom fields, multiple companies, REST API, mobile apps, and Docker deployment . It is positioned as a comprehensive open-source invoicing and expense management platform for small to medium businesses. **Note:** InvoiceShelf lists no e-invoice format among its features, unlike Invoice Ninja .
-**Best for:** Businesses wanting a genuinely open-source (AGPL-3.0) invoicing platform with a modern Laravel/Vue stack and active development, accepting the absence of built-in EU e-invoicing.
+### 2. [Invoice Ninja](https://github.com/invoiceninja/invoiceninja) [![GitHub stars](https://img.shields.io/github/stars/invoiceninja/invoiceninja?style=social&color=white)](https://github.com/invoiceninja/invoiceninja/stargazers)
+* **Stack:** PHP / Laravel / Flutter / MySQL
+* **License:** Elastic License 2.0 (source-available)
+* **Overview:** The most battle-tested and complete self-hosted invoicing platform in the open-source world. Delivers recurring invoices, quotes, client portal, task and time tracking, inventory, and multi-gateway processing. It is the premier self-hosted solution offering built-in European e-invoicing support (**ZUGFeRD, XRechnung, Facturae, and EN16931**).
+* **Best For:** Companies needing enterprise-level invoicing with native EU regulatory compliance and cross-platform desktop/mobile apps.
 
-### InvoicePlane
-**Stack:** PHP / CodeIgniter / MySQL | **License:** MIT
-InvoicePlane is a self-hosted open-source application for managing quotes, invoices, clients, and payments . Features include invoice creation with saved products and tax rates, CRM-like customer management with custom fields, quote approval via a client web panel, PayPal one-click payments, and payment tracking linked to invoices . **E-invoicing:** InvoicePlane has an e-invoicing hook but ships no format in its core—you add templates from the project's InvoicePlane-e-invoices repository, which has examples for ZUGFeRD, Factur-X, and UBL . It is a mature, stable option for businesses not needing EU e-invoicing out of the box.
-**Best for:** Businesses wanting a proven, MIT-licensed invoicing platform with straightforward features and optional e-invoicing templates, accepting a dated UI compared to newer alternatives.
+### 3. [Akaunting](https://github.com/akaunting/akaunting) [![GitHub stars](https://img.shields.io/github/stars/akaunting/akaunting?style=social&color=white)](https://github.com/akaunting/akaunting/stargazers)
+* **Stack:** PHP / Laravel / Tailwind CSS / Vue.js / MySQL
+* **License:** GPL-3.0
+* **Overview:** A modular online accounting and invoicing software built specifically for small businesses. Offers customer invoice dispatch, bill tracking, bank feeds, multi-currency transactions, financial reporting, and an extensive app marketplace for extending capabilities.
+* **Best For:** Small to mid-sized businesses wanting a full modular accounting suite with an intuitive dashboard.
 
-### Kimai
-**Stack:** PHP / Symfony / MySQL | **License:** AGPL-3.0
-Kimai is a time-tracking-first platform where invoices are generated from approved timesheet entries, making line items the work you logged . It is the strongest choice for businesses that bill by the hour, with templates in DOCX, ODS, or XLSX formats that you design in a word processor (easier than editing CSS) . **E-invoicing:** The paid E-Invoice Plus plugin covers EN16931, XRechnung, ZUGFeRD, Factur-X, and Peppol (in beta), but not Facturae or FatturaPA . **Limitation:** Kimai takes no online payments—you email the PDF and get paid by transfer. Its free Customer Portal plugin shares timesheets and project statistics via a secret link, but not invoices .
-**Best for:** Freelancers and agencies billing by the hour who want invoice generation directly from timesheets, accepting that payment collection is manual.
+### 4. [IDURAR ERP CRM](https://github.com/idurar/idurar-erp-crm) [![GitHub stars](https://img.shields.io/github/stars/idurar/idurar-erp-crm?style=social&color=white)](https://github.com/idurar/idurar-erp-crm/stargazers)
+* **Stack:** Node.js / Express / React / Redux / MongoDB (MERN)
+* **License:** MIT
+* **Overview:** A modern JavaScript-based ERP and CRM application designed with invoicing, estimate creation, payment tracking, inventory control, and customer management in a unified interface.
+* **Best For:** Developers and businesses operating in the Node.js/React ecosystem looking for an extensible MIT-licensed billing and customer platform.
 
-### Summit (Kugie)
-**Stack:** Next.js / TypeScript / PostgreSQL / Drizzle | **License:** Open Source (per repository)
-Summit is a modern open-source invoicing and finance tool built with Next.js and TypeScript, positioned for businesses wanting a comprehensive finance management platform . Key features include:
-- **Invoicing** with PDF generation, email sending, status tracking (Draft, Sent, Paid, Overdue, Cancelled), and **Xendit payment integration** 
-- **Quoting** with PDF generation, email sending, status tracking, and **one-click quote-to-invoice conversion** 
-- **Expense and income tracking** with receipt uploads (Minio/S3) and categorization 
-- **Recurring transactions** on daily, weekly, monthly, or yearly schedules with cron-based automation 
-- **Client portal** with magic link authentication 
-- **Team management** with Admin, Accountant, and Staff roles 
-- **Financial reports**: Profit & Loss, Invoice Summary, Aging Receivables, Expense Breakdown 
+### 5. [Crater](https://github.com/crater-invoice-inc/crater) (Archived) [![GitHub stars](https://img.shields.io/github/stars/crater-invoice-inc/crater?style=social&color=white)](https://github.com/crater-invoice-inc/crater/stargazers)
+* **Stack:** PHP / Laravel / Vue.js / Docker
+* **License:** AGPL-3.0
+* **Overview:** Previously one of the most celebrated self-hosted invoice applications for freelancers. Provides clean PDF invoice generation, payment logging, and tax management. *(Note: Development on the default branch has been inactive; new deployments should consider its actively maintained community fork, InvoiceShelf).*
+* **Best For:** Historical reference or existing installations looking to migrate data to InvoiceShelf.
 
-Deploys on Railway with PostgreSQL, MinIO, and webhook processing. **Trade-off:** Payment integration is Xendit-specific (popular in Southeast Asia), not Stripe or PayPal.
-**Best for:** Teams in Southeast Asia or those using Xendit wanting a modern, comprehensive invoicing and finance platform, accepting the payment gateway dependency.
+### 6. [Invoify](https://github.com/al1abb/invoify) [![GitHub stars](https://img.shields.io/github/stars/al1abb/invoify?style=social&color=white)](https://github.com/al1abb/invoify/stargazers)
+* **Stack:** Next.js / TypeScript / Tailwind CSS / shadcn/ui
+* **License:** MIT
+* **Overview:** A lightweight, modern invoice generator designed with a frictionless UI. Enables instantaneous creation, customization, preview, and PDF export of invoices directly in the browser or self-hosted container with zero bloat.
+* **Best For:** Freelancers and developers who need instant, polished invoice generation without heavy database backends.
 
-### BillKu
-**Stack:** NestJS / Next.js / Prisma / PostgreSQL | **License:** Open Source (per repository)
-BillKu is a comprehensive open-source billing and business management platform for SMEs, combining invoicing with CRM, POS, HR/payroll, inventory, and financial reporting in a single unified platform . Key features include:
-- **Full invoice lifecycle** (Draft → Sent → Partial → Paid → Overdue) with quotations, purchase orders, credit notes, delivery notes, and recurring invoices 
-- **Financial reporting**: P&L, balance sheet, cash flow statement, general ledger, receivables aging, CSV & tax export 
-- **CRM** with deal pipeline, activity tracking, and customer segmentation 
-- **POS** with session-based cash management, barcode support, and auto-deduct inventory 
-- **HR & Payroll** with automated generation, attendance tracking, and approval workflow 
-- **Integrations**: WhatsApp for invoice sending and payment reminders, Indonesian payment gateways (Midtrans, Xendit, DOKU), e-commerce marketplaces (Tokopedia, Shopee, Lazada), and SMTP email 
+### 7. [Manta](https://github.com/hql287/Manta) [![GitHub stars](https://img.shields.io/github/stars/hql287/Manta?style=social&color=white)](https://github.com/hql287/Manta/stargazers)
+* **Stack:** Electron / JavaScript / React / HTML5
+* **License:** MIT
+* **Overview:** A flexible, elegant desktop invoicing application featuring beautifully crafted, highly customizable invoice templates. Operates entirely locally with no external server requirements, prioritizing total data privacy.
+* **Best For:** Freelancers seeking an offline-first desktop tool with pixel-perfect template customization.
 
-Deploys via Docker with SQLite (dev) or PostgreSQL (prod). **Trade-off:** The breadth of features (POS, HR, CRM) makes it heavier than a dedicated invoicing tool, and payment integrations are Indonesia-focused.
-**Best for:** SMEs wanting an all-in-one business platform with invoicing at its core, particularly in Indonesian markets, accepting the broader scope and regional payment focus.
+### 8. [Kimai](https://github.com/kimai/kimai) [![GitHub stars](https://img.shields.io/github/stars/kimai/kimai?style=social&color=white)](https://github.com/kimai/kimai/stargazers)
+* **Stack:** PHP / Symfony / Bootstrap / MySQL
+* **License:** AGPL-3.0
+* **Overview:** An industry-leading open-source time tracking application with robust automated billing. Converts logged timesheet hours and project milestones directly into professional invoices formatted in DOCX, ODS, or XLSX. Features plugin support for EU e-invoicing standards.
+* **Best For:** Freelancers, consultancies, and digital agencies that bill clients on an hourly or project basis.
 
-### Crater (Archived)
-**Stack:** Laravel / Vue.js | **License:** AGPL-3.0
-Crater was a popular open-source invoicing platform, but its default branch has had **no commits for 1,329 days** as of October 2026, and InvoiceShelf's migration guide explicitly calls it "the now abandoned Crater project" . **Not recommended for new deployments.** Any guide still recommending Crater was written before the project went quiet. InvoiceShelf carries the same AGPL-3.0 license and data model, so migration is a database migration rather than a rewrite .
-**Best for:** Historical reference only; use InvoiceShelf instead for an actively maintained fork.
+### 9. [Frappe Books](https://github.com/frappe/books) [![GitHub stars](https://img.shields.io/github/stars/frappe/books?style=social&color=white)](https://github.com/frappe/books/stargazers)
+* **Stack:** Electron / Vue.js / SQLite
+* **License:** AGPL-3.0
+* **Overview:** A free desktop accounting and invoicing tool designed by the team behind ERPNext. Delivers double-entry bookkeeping, invoice creation, billing, receipt logging, and ledger statements in an offline-first desktop environment.
+* **Best For:** Small business owners who want simple double-entry accounting and invoicing without cloud overhead.
 
-### FOSSBilling
-**Stack:** PHP / Doctrine / MySQL/MariaDB | **License:** Apache-2.0
-FOSSBilling is a free and open-source billing and client management solution specifically designed for **hosting businesses**, with 1,705 stars and active development (last push September 2026) . It provides invoicing, payment processing, and client management tailored to hosting providers. It is Apache-2.0 licensed, making it permissively available for commercial use.
-**Best for:** Hosting companies and web service providers needing a billing platform tailored to their specific business model, accepting the hosting-industry focus.
+### 10. [Bigcapital](https://github.com/bigcapitalhq/bigcapital) [![GitHub stars](https://img.shields.io/github/stars/bigcapitalhq/bigcapital?style=social&color=white)](https://github.com/bigcapitalhq/bigcapital/stargazers)
+* **Stack:** Node.js / React / TypeScript / MySQL
+* **License:** AGPL-3.0
+* **Overview:** A developer-friendly open-source financial accounting suite positioned as a modern self-hosted alternative to QuickBooks and Xero. Features full multi-currency invoicing, accounts receivable, balance sheets, and real-time cash flow analytics.
+* **Best For:** Teams wanting an open-source, API-driven accounting and invoice management platform built on modern TypeScript.
+
+### 11. [InvoicePlane](https://github.com/InvoicePlane/InvoicePlane) [![GitHub stars](https://img.shields.io/github/stars/InvoicePlane/InvoicePlane?style=social&color=white)](https://github.com/InvoicePlane/InvoicePlane/stargazers)
+* **Stack:** PHP / CodeIgniter / MySQL
+* **License:** MIT
+* **Overview:** A dependable, self-hosted web application for quotes, invoices, client records, and payment tracking. Features multi-tax support, quote approvals via a client web portal, and built-in PayPal processing.
+* **Best For:** Small businesses looking for a lightweight, battle-tested, and MIT-licensed traditional invoicing engine.
+
+### 12. [InvoiceShelf](https://github.com/InvoiceShelf/InvoiceShelf) [![GitHub stars](https://img.shields.io/github/stars/InvoiceShelf/InvoiceShelf?style=social&color=white)](https://github.com/InvoiceShelf/InvoiceShelf/stargazers)
+* **Stack:** PHP / Laravel / Vue.js / PostgreSQL
+* **License:** AGPL-3.0
+* **Overview:** The actively maintained community successor and fork of the Crater project. Offers multi-company support, client self-service portals, expense tracking, invoice lifecycle management, payment recording, and Docker deployment.
+* **Best For:** Users seeking a modern, actively supported AGPL-3.0 invoicing application with a contemporary Laravel/Vue architecture.
+
+### 13. [FOSSBilling](https://github.com/FOSSBilling/FOSSBilling) [![GitHub stars](https://img.shields.io/github/stars/FOSSBilling/FOSSBilling?style=social&color=white)](https://github.com/FOSSBilling/FOSSBilling/stargazers)
+* **Stack:** PHP / Doctrine / MySQL / MariaDB
+* **License:** Apache-2.0
+* **Overview:** A specialized open-source billing, client management, and automated invoicing platform optimized for web hosting, cloud services, and recurring subscription providers.
+* **Best For:** Hosting companies, SaaS startups, and digital service providers requiring automated recurrent billing.
+
+### 14. [Summit](https://github.com/kugie-app/summit) [![GitHub stars](https://img.shields.io/github/stars/kugie-app/summit?style=social&color=white)](https://github.com/kugie-app/summit/stargazers)
+* **Stack:** Next.js / TypeScript / PostgreSQL / Drizzle ORM
+* **License:** Open Source (per repository)
+* **Overview:** A modern open-source financial management application providing PDF invoice dispatch, quote conversion, receipt categorization via S3/MinIO, and automated recurring invoices with Xendit payment connectivity.
+* **Best For:** Modern web developers and businesses wanting a Next.js/Drizzle tech stack with Southeast Asian payment integration.
+
+### 15. [BillKu](https://github.com/ribato22/BillKu) [![GitHub stars](https://img.shields.io/github/stars/ribato22/BillKu?style=social&color=white)](https://github.com/ribato22/BillKu/stargazers)
+* **Stack:** NestJS / Next.js / Prisma / PostgreSQL
+* **License:** Open Source (per repository)
+* **Overview:** An all-in-one SME business management system featuring invoice lifecycle tracking, point-of-sale (POS), WhatsApp invoice dispatch reminders, and multi-rail payment gateway support.
+* **Best For:** Small business retail operations and service teams looking for combined invoicing and POS management.
 
 ---
 
-## 📊 Comparison at a Glance
+## 📊 Feature & Compliance Comparison
 
-| Software | License | Stack | E-Invoicing | Payment Gateways | Self-Hosted | Best For |
-|----------|---------|-------|-------------|------------------|-------------|----------|
-| **FreshBooks** | Proprietary | Cloud | (Check) | ✅ | ❌ | Small business accounting |
-| **QuickBooks** | Proprietary | Cloud | ❌ | ✅ | ❌ | Full accounting + invoicing |
-| **Invoice Ninja** | Elastic 2.0 | PHP/Laravel | ✅ ZUGFeRD/XRechnung/etc | ✅ | ✅ | EU e-invoicing + full features |
-| **InvoiceShelf** | AGPL-3.0 | Laravel/Vue | ❌ | ✅ | ✅ | Active OSS invoicing |
-| **InvoicePlane** | MIT | PHP/CodeIgniter | (Templates) | ✅ PayPal | ✅ | Proven MIT option |
-| **Kimai** | AGPL-3.0 | PHP/Symfony | ✅ (Paid plugin) | ❌ | ✅ | Hourly billing from timesheets |
-| **Summit** | Open Source | Next.js/Postgres | ❌ | ✅ Xendit | ✅ | Modern finance platform |
-| **BillKu** | Open Source | NestJS/Next.js | ❌ | ✅ Indonesia-focused | ✅ | All-in-one SME platform |
-| **FOSSBilling** | Apache-2.0 | PHP/Doctrine | ❌ | ✅ | ✅ | Hosting business billing |
+| Software 💻 | License 📜 | Stack ⚙️ | E-Invoicing (ZUGFeRD/Peppol) 🇪🇺 | Online Gateways 💳 | Self-Hosted 🏠 | Target Use Case 🎯 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **QuickBooks Online** | Commercial SaaS | Cloud | ❌ Add-on required | ✅ Native Intuit Pay | ❌ Cloud Only | Comprehensive SMB accounting |
+| **Square Invoices** | Commercial SaaS | Cloud | ❌ | ✅ Square Payments | ❌ Cloud Only | POS-linked card/ACH billing |
+| **Xero** | Commercial SaaS | Cloud | ⚠️ Regional e-invoicing | ✅ Multi-Gateway | ❌ Cloud Only | Global double-entry accounting |
+| **FreshBooks** | Commercial SaaS | Cloud | ⚠️ Standard PDF/Templates | ✅ Stripe / FreshBooks Pay | ❌ Cloud Only | Freelancers & client service billing |
+| **Wave Accounting** | Commercial SaaS | Cloud | ❌ | ✅ Wave Payments | ❌ Cloud Only | Free core micro-business bookkeeping |
+| **Midday** | Open Source | Next.js / Supabase | 🔄 In development | ✅ Multi-rail | ✅ Yes | AI-assisted freelance financial OS |
+| **Invoice Ninja** | Elastic License 2.0 | PHP / Flutter | ✅ Full (ZUGFeRD, XRechnung) | ✅ 30+ Gateways | ✅ Yes | Enterprise self-hosted & EU compliance |
+| **Akaunting** | GPL-3.0 | PHP / Laravel | 🔌 Via App Store Plugin | ✅ Extensive Apps | ✅ Yes | Modular open-source accounting suite |
+| **IDURAR** | MIT | Node.js / React | ❌ | ✅ Customizable | ✅ Yes | JavaScript / MERN ERP & invoicing |
+| **Invoify** | MIT | Next.js / shadcn | ❌ | ❌ Direct export | ✅ Yes | Instant browser/PDF invoice generation |
+| **Manta** | MIT | Electron / React | ❌ | ❌ Offline only | ✅ Local App | Private, customizable desktop invoicing |
+| **Kimai** | AGPL-3.0 | PHP / Symfony | 🔌 Via E-Invoice Plugin | ❌ Manual/Bank | ✅ Yes | Time-tracking to invoice conversion |
+| **Frappe Books** | AGPL-3.0 | Electron / Vue | ❌ | ❌ Desktop Ledger | ✅ Local App | Free offline double-entry desktop book |
+| **Bigcapital** | AGPL-3.0 | Node.js / React | ❌ | ✅ API-driven | ✅ Yes | Open-source QuickBooks alternative |
+| **InvoicePlane** | MIT | PHP / CodeIgniter | 🔌 Template Add-on | ✅ PayPal / Stripe | ✅ Yes | Mature, proven lightweight invoicing |
+| **InvoiceShelf** | AGPL-3.0 | Laravel / Vue | ❌ | ✅ Multi-gateway | ✅ Yes | Modern actively maintained Crater fork |
+| **FOSSBilling** | Apache-2.0 | PHP / Doctrine | ❌ | ✅ Multiple Modules | ✅ Yes | Web hosting & digital client billing |
+| **Summit** | Open Source | Next.js / Drizzle | ❌ | ✅ Xendit | ✅ Yes | Modern TypeScript stack with finance ops |
+| **BillKu** | Open Source | NestJS / Next.js | ❌ | ✅ Indonesian Rails | ✅ Yes | Unified SME management, POS & invoices |
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Online Invoicing or Payment Tracking tool that should be listed here, please open a pull request with:
+Contributions are warmly welcomed! If you know of an outstanding open-source or hosted invoicing and payment tracking platform that should be featured:
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
+1. 🍴 Fork the repository.
+2. 🌿 Create a descriptive branch: `git checkout -b add-my-invoicing-platform`.
+3. 📝 Add your entry with license, GitHub star badge (for open source), stack, and unique features.
+4. 🚀 Open a Pull Request with a brief explanation of why the software stands out.
 
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source (or clearly note if it is source-available but not OSI-approved, as with Invoice Ninja).
-
-**Note on the open-source ecosystem:** The invoicing landscape is dominated by **Invoice Ninja** for feature depth and EU e-invoicing compliance, but its Elastic License 2.0 is source-available rather than OSI-approved . **InvoiceShelf** is the strongest genuinely open-source (AGPL-3.0) option, having replaced the abandoned Crater project . For hourly billing, **Kimai** uniquely generates invoices directly from timesheets . **Crater** should be avoided entirely due to abandonment . The right choice depends on whether you need EU e-invoicing (Invoice Ninja), a permissive license (InvoicePlane), or modern tooling (Summit, BillKu).
+Please verify that any added project is actively maintained (commits or releases within the last 12 months) and clearly specifies its licensing terms.
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
+This repository and curated list are distributed under the [Creative Commons Zero v1.0 Universal](LICENSE) (CC0 1.0 - Public Domain Dedication). Listed software products and trademarks are property of their respective owners.
 
 ---
 
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+<p align="center">
+  ⭐ <b>Found this curated list helpful? Star this repository to support continuous updates!</b> ⭐
+</p>
