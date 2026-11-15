@@ -64,93 +64,93 @@ Below is an overview of leading cloud-hosted commercial invoicing and financial 
 
 ## 🟩 Open-Source Software
 
-The open-source invoicing landscape features everything from modern Next.js/TypeScript developer stacks to full-fledged ERP suites and EU e-invoicing compliance engines. Repositories below are ordered in descending order of GitHub star count.
+The open-source invoicing landscape features everything from modern Next.js/TypeScript developer stacks to full-fledged ERP suites and EU e-invoicing compliance engines. Repositories below are ordered in descending order of GitHub Stars_Count.
 
-### 1. [Midday](https://github.com/midday-ai/midday) [![GitHub stars](https://img.shields.io/github/stars/midday-ai/midday?style=social&color=white)](https://github.com/midday-ai/midday/stargazers)
+### 1. [Midday](https://github.com/midday-ai/midday) [![GitHub_Stars](https://img.shields.io/github/stars/midday-ai/midday?style=social&color=white)](https://github.com/midday-ai/midday/stargazers)
 * **Stack:** Next.js / TypeScript / Tailwind CSS / Supabase / AI Engine
 * **License:** Open Source (per repository)
 * **Overview:** A modern, AI-enhanced financial operating system designed for freelancers, solopreneurs, and digital agencies. Features sleek invoice generation, automatic bank transaction reconciliation, multi-currency reporting, expense categorization, and an integrated AI financial assistant.
 * **Best For:** Modern businesses wanting an all-in-one financial dashboard with cutting-edge UI and AI automation.
 
-### 2. [Invoice Ninja](https://github.com/invoiceninja/invoiceninja) [![GitHub stars](https://img.shields.io/github/stars/invoiceninja/invoiceninja?style=social&color=white)](https://github.com/invoiceninja/invoiceninja/stargazers)
+### 2. [Invoice Ninja](https://github.com/invoiceninja/invoiceninja) [![GitHub_Stars](https://img.shields.io/github/stars/invoiceninja/invoiceninja?style=social&color=white)](https://github.com/invoiceninja/invoiceninja/stargazers)
 * **Stack:** PHP / Laravel / Flutter / MySQL
 * **License:** Elastic License 2.0 (source-available)
 * **Overview:** The most battle-tested and complete self-hosted invoicing platform in the open-source world. Delivers recurring invoices, quotes, client portal, task and time tracking, inventory, and multi-gateway processing. It is the premier self-hosted solution offering built-in European e-invoicing support (**ZUGFeRD, XRechnung, Facturae, and EN16931**).
 * **Best For:** Companies needing enterprise-level invoicing with native EU regulatory compliance and cross-platform desktop/mobile apps.
 
-### 3. [Akaunting](https://github.com/akaunting/akaunting) [![GitHub stars](https://img.shields.io/github/stars/akaunting/akaunting?style=social&color=white)](https://github.com/akaunting/akaunting/stargazers)
+### 3. [Akaunting](https://github.com/akaunting/akaunting) [![GitHub_Stars](https://img.shields.io/github/stars/akaunting/akaunting?style=social&color=white)](https://github.com/akaunting/akaunting/stargazers)
 * **Stack:** PHP / Laravel / Tailwind CSS / Vue.js / MySQL
 * **License:** GPL-3.0
 * **Overview:** A modular online accounting and invoicing software built specifically for small businesses. Offers customer invoice dispatch, bill tracking, bank feeds, multi-currency transactions, financial reporting, and an extensive app marketplace for extending capabilities.
 * **Best For:** Small to mid-sized businesses wanting a full modular accounting suite with an intuitive dashboard.
 
-### 4. [IDURAR ERP CRM](https://github.com/idurar/idurar-erp-crm) [![GitHub stars](https://img.shields.io/github/stars/idurar/idurar-erp-crm?style=social&color=white)](https://github.com/idurar/idurar-erp-crm/stargazers)
+### 4. [IDURAR ERP CRM](https://github.com/idurar/idurar-erp-crm) [![GitHub_Stars](https://img.shields.io/github/stars/idurar/idurar-erp-crm?style=social&color=white)](https://github.com/idurar/idurar-erp-crm/stargazers)
 * **Stack:** Node.js / Express / React / Redux / MongoDB (MERN)
 * **License:** MIT
 * **Overview:** A modern JavaScript-based ERP and CRM application designed with invoicing, estimate creation, payment tracking, inventory control, and customer management in a unified interface.
 * **Best For:** Developers and businesses operating in the Node.js/React ecosystem looking for an extensible MIT-licensed billing and customer platform.
 
-### 5. [Crater](https://github.com/crater-invoice-inc/crater) (Archived) [![GitHub stars](https://img.shields.io/github/stars/crater-invoice-inc/crater?style=social&color=white)](https://github.com/crater-invoice-inc/crater/stargazers)
+### 5. [Crater](https://github.com/crater-invoice-inc/crater) (Archived) [![GitHub_Stars](https://img.shields.io/github/stars/crater-invoice-inc/crater?style=social&color=white)](https://github.com/crater-invoice-inc/crater/stargazers)
 * **Stack:** PHP / Laravel / Vue.js / Docker
 * **License:** AGPL-3.0
 * **Overview:** Previously one of the most celebrated self-hosted invoice applications for freelancers. Provides clean PDF invoice generation, payment logging, and tax management. *(Note: Development on the default branch has been inactive; new deployments should consider its actively maintained community fork, InvoiceShelf).*
 * **Best For:** Historical reference or existing installations looking to migrate data to InvoiceShelf.
 
-### 6. [Invoify](https://github.com/al1abb/invoify) [![GitHub stars](https://img.shields.io/github/stars/al1abb/invoify?style=social&color=white)](https://github.com/al1abb/invoify/stargazers)
+### 6. [Invoify](https://github.com/al1abb/invoify) [![GitHub_Stars](https://img.shields.io/github/stars/al1abb/invoify?style=social&color=white)](https://github.com/al1abb/invoify/stargazers)
 * **Stack:** Next.js / TypeScript / Tailwind CSS / shadcn/ui
 * **License:** MIT
 * **Overview:** A lightweight, modern invoice generator designed with a frictionless UI. Enables instantaneous creation, customization, preview, and PDF export of invoices directly in the browser or self-hosted container with zero bloat.
 * **Best For:** Freelancers and developers who need instant, polished invoice generation without heavy database backends.
 
-### 7. [Manta](https://github.com/hql287/Manta) [![GitHub stars](https://img.shields.io/github/stars/hql287/Manta?style=social&color=white)](https://github.com/hql287/Manta/stargazers)
+### 7. [Manta](https://github.com/hql287/Manta) [![GitHub_Stars](https://img.shields.io/github/stars/hql287/Manta?style=social&color=white)](https://github.com/hql287/Manta/stargazers)
 * **Stack:** Electron / JavaScript / React / HTML5
 * **License:** MIT
 * **Overview:** A flexible, elegant desktop invoicing application featuring beautifully crafted, highly customizable invoice templates. Operates entirely locally with no external server requirements, prioritizing total data privacy.
 * **Best For:** Freelancers seeking an offline-first desktop tool with pixel-perfect template customization.
 
-### 8. [Kimai](https://github.com/kimai/kimai) [![GitHub stars](https://img.shields.io/github/stars/kimai/kimai?style=social&color=white)](https://github.com/kimai/kimai/stargazers)
+### 8. [Kimai](https://github.com/kimai/kimai) [![GitHub_Stars](https://img.shields.io/github/stars/kimai/kimai?style=social&color=white)](https://github.com/kimai/kimai/stargazers)
 * **Stack:** PHP / Symfony / Bootstrap / MySQL
 * **License:** AGPL-3.0
 * **Overview:** An industry-leading open-source time tracking application with robust automated billing. Converts logged timesheet hours and project milestones directly into professional invoices formatted in DOCX, ODS, or XLSX. Features plugin support for EU e-invoicing standards.
 * **Best For:** Freelancers, consultancies, and digital agencies that bill clients on an hourly or project basis.
 
-### 9. [Frappe Books](https://github.com/frappe/books) [![GitHub stars](https://img.shields.io/github/stars/frappe/books?style=social&color=white)](https://github.com/frappe/books/stargazers)
+### 9. [Frappe Books](https://github.com/frappe/books) [![GitHub_Stars](https://img.shields.io/github/stars/frappe/books?style=social&color=white)](https://github.com/frappe/books/stargazers)
 * **Stack:** Electron / Vue.js / SQLite
 * **License:** AGPL-3.0
 * **Overview:** A free desktop accounting and invoicing tool designed by the team behind ERPNext. Delivers double-entry bookkeeping, invoice creation, billing, receipt logging, and ledger statements in an offline-first desktop environment.
 * **Best For:** Small business owners who want simple double-entry accounting and invoicing without cloud overhead.
 
-### 10. [Bigcapital](https://github.com/bigcapitalhq/bigcapital) [![GitHub stars](https://img.shields.io/github/stars/bigcapitalhq/bigcapital?style=social&color=white)](https://github.com/bigcapitalhq/bigcapital/stargazers)
+### 10. [Bigcapital](https://github.com/bigcapitalhq/bigcapital) [![GitHub_Stars](https://img.shields.io/github/stars/bigcapitalhq/bigcapital?style=social&color=white)](https://github.com/bigcapitalhq/bigcapital/stargazers)
 * **Stack:** Node.js / React / TypeScript / MySQL
 * **License:** AGPL-3.0
 * **Overview:** A developer-friendly open-source financial accounting suite positioned as a modern self-hosted alternative to QuickBooks and Xero. Features full multi-currency invoicing, accounts receivable, balance sheets, and real-time cash flow analytics.
 * **Best For:** Teams wanting an open-source, API-driven accounting and invoice management platform built on modern TypeScript.
 
-### 11. [InvoicePlane](https://github.com/InvoicePlane/InvoicePlane) [![GitHub stars](https://img.shields.io/github/stars/InvoicePlane/InvoicePlane?style=social&color=white)](https://github.com/InvoicePlane/InvoicePlane/stargazers)
+### 11. [InvoicePlane](https://github.com/InvoicePlane/InvoicePlane) [![GitHub_Stars](https://img.shields.io/github/stars/InvoicePlane/InvoicePlane?style=social&color=white)](https://github.com/InvoicePlane/InvoicePlane/stargazers)
 * **Stack:** PHP / CodeIgniter / MySQL
 * **License:** MIT
 * **Overview:** A dependable, self-hosted web application for quotes, invoices, client records, and payment tracking. Features multi-tax support, quote approvals via a client web portal, and built-in PayPal processing.
 * **Best For:** Small businesses looking for a lightweight, battle-tested, and MIT-licensed traditional invoicing engine.
 
-### 12. [InvoiceShelf](https://github.com/InvoiceShelf/InvoiceShelf) [![GitHub stars](https://img.shields.io/github/stars/InvoiceShelf/InvoiceShelf?style=social&color=white)](https://github.com/InvoiceShelf/InvoiceShelf/stargazers)
+### 12. [InvoiceShelf](https://github.com/InvoiceShelf/InvoiceShelf) [![GitHub_Stars](https://img.shields.io/github/stars/InvoiceShelf/InvoiceShelf?style=social&color=white)](https://github.com/InvoiceShelf/InvoiceShelf/stargazers)
 * **Stack:** PHP / Laravel / Vue.js / PostgreSQL
 * **License:** AGPL-3.0
 * **Overview:** The actively maintained community successor and fork of the Crater project. Offers multi-company support, client self-service portals, expense tracking, invoice lifecycle management, payment recording, and Docker deployment.
 * **Best For:** Users seeking a modern, actively supported AGPL-3.0 invoicing application with a contemporary Laravel/Vue architecture.
 
-### 13. [FOSSBilling](https://github.com/FOSSBilling/FOSSBilling) [![GitHub stars](https://img.shields.io/github/stars/FOSSBilling/FOSSBilling?style=social&color=white)](https://github.com/FOSSBilling/FOSSBilling/stargazers)
+### 13. [FOSSBilling](https://github.com/FOSSBilling/FOSSBilling) [![GitHub_Stars](https://img.shields.io/github/stars/FOSSBilling/FOSSBilling?style=social&color=white)](https://github.com/FOSSBilling/FOSSBilling/stargazers)
 * **Stack:** PHP / Doctrine / MySQL / MariaDB
 * **License:** Apache-2.0
 * **Overview:** A specialized open-source billing, client management, and automated invoicing platform optimized for web hosting, cloud services, and recurring subscription providers.
 * **Best For:** Hosting companies, SaaS startups, and digital service providers requiring automated recurrent billing.
 
-### 14. [Summit](https://github.com/kugie-app/summit) [![GitHub stars](https://img.shields.io/github/stars/kugie-app/summit?style=social&color=white)](https://github.com/kugie-app/summit/stargazers)
+### 14. [Summit](https://github.com/kugie-app/summit) [![GitHub_Stars](https://img.shields.io/github/stars/kugie-app/summit?style=social&color=white)](https://github.com/kugie-app/summit/stargazers)
 * **Stack:** Next.js / TypeScript / PostgreSQL / Drizzle ORM
 * **License:** Open Source (per repository)
 * **Overview:** A modern open-source financial management application providing PDF invoice dispatch, quote conversion, receipt categorization via S3/MinIO, and automated recurring invoices with Xendit payment connectivity.
 * **Best For:** Modern web developers and businesses wanting a Next.js/Drizzle tech stack with Southeast Asian payment integration.
 
-### 15. [BillKu](https://github.com/ribato22/BillKu) [![GitHub stars](https://img.shields.io/github/stars/ribato22/BillKu?style=social&color=white)](https://github.com/ribato22/BillKu/stargazers)
+### 15. [BillKu](https://github.com/ribato22/BillKu) [![GitHub_Stars](https://img.shields.io/github/stars/ribato22/BillKu?style=social&color=white)](https://github.com/ribato22/BillKu/stargazers)
 * **Stack:** NestJS / Next.js / Prisma / PostgreSQL
 * **License:** Open Source (per repository)
 * **Overview:** An all-in-one SME business management system featuring invoice lifecycle tracking, point-of-sale (POS), WhatsApp invoice dispatch reminders, and multi-rail payment gateway support.
@@ -210,7 +210,7 @@ Contributions are warmly welcomed! If you know of an outstanding open-source or 
 
 1. 🍴 Fork the repository.
 2. 🌿 Create a descriptive branch: `git checkout -b add-my-invoicing-platform`.
-3. 📝 Add your entry with license, GitHub star badge (for open source), stack, and unique features.
+3. 📝 Add your entry with license, GitHub Stars_Badge (for open source), stack, and unique features.
 4. 🚀 Open a Pull Request with a brief explanation of why the software stands out.
 
 Please verify that any added project is actively maintained (commits or releases within the last 12 months) and clearly specifies its licensing terms.
