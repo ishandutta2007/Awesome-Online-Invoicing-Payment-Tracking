@@ -4,9 +4,11 @@
 
 # 🧾 Awesome Online Invoicing & Payment Tracking 💳
 
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-blue.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 > 🌟 **A curated list of top Online Invoicing and Payment Tracking platforms** — exploring modern open-source billing engines, self-hosted accounting suites, and enterprise SaaS solutions for invoice generation, automated payment tracking, EU e-invoicing compliance (ZUGFeRD, XRechnung, Peppol), and cash-flow management.
 
@@ -33,6 +35,8 @@
   - [14. Summit (Kugie)](#14-summit-kugie-)
   - [15. BillKu](#15-billku-)
 - [📊 Feature & Compliance Comparison](#-feature--compliance-comparison)
+- [⭐ Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
 
@@ -177,6 +181,26 @@ The open-source invoicing landscape features everything from modern Next.js/Type
 | **FOSSBilling** | Apache-2.0 | PHP / Doctrine | ❌ | ✅ Multiple Modules | ✅ Yes | Web hosting & digital client billing |
 | **Summit** | Open Source | Next.js / Drizzle | ❌ | ✅ Xendit | ✅ Yes | Modern TypeScript stack with finance ops |
 | **BillKu** | Open Source | NestJS / Next.js | ❌ | ✅ Indonesian Rails | ✅ Yes | Unified SME management, POS & invoices |
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Online-Invoicing-Payment-Tracking&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Online-Invoicing-Payment-Tracking&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for exploring this curated guide to online invoicing and payment tracking! If you found this repository useful, please consider:
+- ⭐ **Starring** the repository on GitHub to show your support.
+- 🍴 **Forking** and contributing new platforms, updates, or tools.
+- 📢 **Sharing** with fellow developers, freelancers, and small business owners.
+
+If you would like to support ongoing maintenance and new curated developer resources, consider sponsoring or buying a coffee:
+
+[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%99%A5-ff69b4?style=for-the-badge&logo=github-sponsors)](https://github.com/sponsors/ishandutta2007)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Donate-orange?style=for-the-badge&logo=buy-me-a-coffee)](https://github.com/sponsors/ishandutta2007)
 
 ---
 
